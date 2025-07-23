@@ -211,10 +211,10 @@ align(center, text(3em, weight: 700, title))
 line(start: (10%, 0pt), length: 80%, stroke: cover-color)
 v(5fr)
 //author
-align(center, text(1.5em, weight: 500, degree + " Thesis by " + author))
+align(center, text(1.5em, weight: 500, degree + "Thesis vorgelegt von " + author))
 //study program
 if program != none {
-  align(center, text(1.3em, weight: 100, "Study Programme: " + program))
+  align(center, text(1.3em, weight: 100, "Studiengang: " + program))
 }
 //university
 align(center, text(1.3em, weight: 100, university + ", " + institute))
@@ -225,7 +225,7 @@ if city != none {
 }
 align(center, text(1.3em, weight: 100, deadline-text))
 // supervisors
-align(center + bottom, text(1.3em, weight: 100, " supervised by" + linebreak() + supervisor1 + linebreak() +  supervisor2))
+align(center + bottom, text(1.3em, weight: 100, " betreut durch" + linebreak() + supervisor1 + linebreak() +  supervisor2))
 pagebreak()
 
 // ------------------- Settings for headings -------------------
