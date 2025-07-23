@@ -48,7 +48,7 @@
 // stylizes level 1 headings
 #let heading1-as-chapter(heading-color, it) = {
   // ------------------- Settings for Chapter headings -------------------
-  show heading.where(level: 1): set heading(supplement: [Chapter])
+  show heading.where(level: 1): set heading(supplement: [Kapitel])
   show heading.where(
     level: 1,
   ): it => {
